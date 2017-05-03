@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Consumption</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+  <div id="settings" class="screen">
+    <div class="top-container">
+      <p id="settings-close">CLOSE</p>
+    </div>
+
+    <div class="weight">
+      <p>WHAT IS YOUR WEIGHT?</p>
+      <div class="top-controls">
+        <div class="add">+</div>
+        <div class="add">+</div>
+        <div class="add">+</div>
+      </div>
+      <div class="show-numbers">
+        <div class="number">0</div>
+        <div class="number">0</div>
+        <div class="number">0</div>
+      </div>
+      <div class="bottom-controls">
+        <div class="subtract">-</div>
+        <div class="subtract">-</div>
+        <div class="subtract">-</div>
+      </div>
+    </div>
+
+    <div class="select-type">
+      <p>CHOOSE A CUP SIZE</p>
+      <div class="select-options">
+        <div class="select-options-card">
+          <p>4 oz</p>
+        </div>
+        <div class="select-options-card">
+          <p>8 oz</p>
+        </div>
+        <div class="select-options-card">
+          <p>12 oz</p>
+        </div>
+        <div class="select-options-card">
+          <p>16 oz</p>
+        </div>
+        <div class="select-options-card">
+          <p>24 oz</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <p id="save" class="btn btn-secondary">SAVE</p>
+    </div>
+  </div>
+
+  <div id="main-screen" class="screen">
+    <div class="top-container">
+      <p id="settings-button">SETTINGS</p>
+      <p id="progress">0 of 0 oz</p>
+      <p id="history-button">HISTORY</p>
+    </div>
+
+    <img src="assets/icons/cup.svg" alt="Cup" class="cup-svg">
+
+    <div class="button-container">
+      <p class="btn btn-primary" onclick="addDrink(), setData()">DRINK</p>
+    </div>
+  </div>
+
+  <div id="history" class="screen">
+    <div class="top-container">
+      <p id="history-close">CLOSE</p>
+    </div>
+
+    <div class="no-content" id="history-empty-state">
+      <p>Add drinks to see your history</p>
+    </div>
+
+    <div class="history" id="history-card-content">
+    </div>
+  </div>
+
+  <div id="background-progress" class="screen"></div>
+
+  <div id="overlay" class="screen"></div>
+
+  <div id="modal">
+    <div class="modal-image">
+      <img src="assets/icons/cup.svg" alt="" id="image-modal">
+    </div>
+    <div class="modal-text">
+      <h1></h1>
+      <p></p>
+    </div>
+    <div class="button-modal">
+      <p class="btn btn-primary">OK</p>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/new-app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.48 60.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bbe2f9;
+      }
+
+      .cls-2 {
+        font-size: 28.69px;
+        fill: #fff;
+        font-family: Microsoft Sans Serif;
+      }
+    </style>
+  </defs>
+  <title>empty-cup</title>
+  <path class="cls-1" d="M46.86,6.1c0-2.46-6.65-4.48-14.86-4.48s-14.63,2-14.63,4.45L19.56,58c0.24,2,5.71,4.46,12.43,4.46S44.18,60,44.43,58h0Z" transform="translate(-17.37 -1.62)"/>
+  <text class="cls-2" transform="translate(6.65 39)">?</text>
+</svg>

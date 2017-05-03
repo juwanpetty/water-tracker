@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.48 60.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bbe2f9;
+      }
+
+      .cls-2 {
+        fill: #32bafa;
+      }
+    </style>
+  </defs>
+  <title>cup</title>
+  <path class="cls-1" d="M46.86,6.1c0-2.46-6.65-4.48-14.86-4.48s-14.63,2-14.63,4.45L19.56,58c0.24,2,5.71,4.46,12.43,4.46S44.18,60,44.43,58h0Z" transform="translate(-17.37 -1.62)"/>
+  <path class="cls-2" d="M45,13.33c0-2.07-5.89-3.8-13.15-3.8S19,11.18,19,13.25l1.94,43.61c0.22,1.68,5.05,3.82,11,3.82S42.68,59,42.9,57h0Z" transform="translate(-17.37 -1.62)"/>
+</svg>
